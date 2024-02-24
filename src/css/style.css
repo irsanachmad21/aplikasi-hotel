@@ -1,0 +1,148 @@
+body {
+    font-family: arial;
+    background-color: slategrey;
+}
+
+fieldset {
+    width: 98%;
+    border: 3px black solid;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #00337c;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+fieldset td {
+    color: white;
+    font-weight: bold;
+}
+
+input[type='text'],
+select {
+    padding: 7px;
+    width: 200px;
+    font-weight: bold;
+}
+
+#pencarian {
+    padding: 10px;
+    width: 338px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+    background-color: #16a34a;
+    padding: 10px;
+    width: 110px;
+    margin: 10px;
+    font-weight: bolder;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='button']:hover {
+    background-color: #15803d;
+    padding: 10px;
+    width: 110px;
+    font-weight: bolder;
+}
+
+input[type='reset'] {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#reservasi {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#reservasi td,
+#reservasi th {
+    border: 3px solid black;
+    padding: 8px;
+}
+
+#reservasi tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#reservasi tr {
+    background-color: #ddd;
+}
+
+#reservasi th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #15803d;
+    color: #ffffff;
+    position: relative;
+    top: 0;
+}
+
+.table-wrapper {
+    max-height: 192px;
+    overflow-y: scroll;
+}
+
+.table-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.pindahform{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #16a34a;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.pindahform:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: #15803d;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.next-page {
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    margin-right: 20px; /* Jarak antara form dan div */
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.links p {
+    margin-left: 20px;
+    margin-top: 0px;
+    right: 0px;
+}
